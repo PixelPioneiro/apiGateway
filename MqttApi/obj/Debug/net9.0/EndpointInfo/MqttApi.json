@@ -1,0 +1,47 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "MqttApi",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/GerenciadorMqtt/status": {
+      "get": {
+        "tags": [
+          "GerenciadorMqtt"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/GerenciadorMqtt/send": {
+      "post": {
+        "tags": [
+          "GerenciadorMqtt"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": { }
+            },
+            "text/json": {
+              "schema": { }
+            },
+            "application/*+json": {
+              "schema": { }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}

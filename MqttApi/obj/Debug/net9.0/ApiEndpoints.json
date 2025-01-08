@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "MqttApi.Controllers.GerenciadorMqttController",
+    "Method": "SendMessage",
+    "RelativePath": "api/GerenciadorMqtt/send",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "payload",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MqttApi.Controllers.GerenciadorMqttController",
+    "Method": "GetStatus",
+    "RelativePath": "api/GerenciadorMqtt/status",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
